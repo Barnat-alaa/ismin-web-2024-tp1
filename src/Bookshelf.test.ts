@@ -1,5 +1,5 @@
+import { Book } from './Book';
 import { Bookshelf } from './Bookshelf';
-import type { Book } from './Book';
 
 describe('Bookshelf', () => {
   const theLordOfTheRings: Book = {
