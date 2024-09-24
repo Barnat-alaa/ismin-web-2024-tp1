@@ -1,4 +1,4 @@
-import type { Book } from "./Book";
+import type { Book } from './Book';
 
 export class Bookshelf {
   private readonly storage: Map<string, Book> = new Map();
@@ -19,7 +19,7 @@ export class Bookshelf {
 
   getAllBooks(): Book[] {
     return Array.from(this.storage.values()).sort((a, b) =>
-      a.title.localeCompare(b.title)
+      a.title.localeCompare(b.title),
     );
   }
 
